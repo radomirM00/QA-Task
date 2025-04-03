@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.qa_task.tests.SmokeTest">
+        <methods>
+          <include name="verifyIsssueAssigneeIsEdatable"/>
+          <include name="verifyIssueIsDeleted"/>
+          <include name="tearDown"/>
+          <include name="verifyIsssueStatusIsEdatable"/>
+          <include name="setup"/>
+          <include name="verifyTicketCreation"/>
+          <include name="verifyIssueReadability"/>
+        </methods>
+      </class> <!-- com.qa_task.tests.SmokeTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

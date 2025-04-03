@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-03T15:40:45 CEST" name="Surefire suite" finished-at="2025-04-03T15:41:08 CEST" duration-ms="22960">
+    <groups>
+    </groups>
+    <test started-at="2025-04-03T15:40:45 CEST" name="Surefire test" finished-at="2025-04-03T15:41:08 CEST" duration-ms="22960">
+      <class name="com.qa_task.tests.SmokeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:40:45 CEST" name="setup" finished-at="2025-04-03T15:40:47 CEST" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBoardHeader()[pri:1, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:40:47 CEST" name="verifyBoardHeader" description="Verifying the board title." finished-at="2025-04-03T15:40:48 CEST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoardHeader -->
+        <test-method signature="verifyIgnoreResolvedIssuesFilter()[pri:2, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:40:48 CEST" name="verifyIgnoreResolvedIssuesFilter" description="Verifying that the resolved issues are not displayed when the filter is applied." finished-at="2025-04-03T15:40:48 CEST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIgnoreResolvedIssuesFilter -->
+        <test-method signature="verifyFilterClear()[pri:3, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:40:48 CEST" name="verifyFilterClear" description="Verifying that filter resets after the &quot;Clear all&quot; button is clicked." finished-at="2025-04-03T15:40:49 CEST" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterClear -->
+        <test-method signature="verifyFilterBySearch()[pri:4, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:40:49 CEST" name="verifyFilterBySearch" description="Verifying filtering by searched criteria." finished-at="2025-04-03T15:40:51 CEST" duration-ms="2350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterBySearch -->
+        <test-method signature="verifySearchResults()[pri:5, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:40:51 CEST" name="verifySearchResults" description="Verifying integrity of the side menu search results." finished-at="2025-04-03T15:40:53 CEST" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResults -->
+        <test-method signature="verifyTicketCreation()[pri:6, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:40:53 CEST" name="verifyTicketCreation" description="Verifying that the issue is sucessfully created." finished-at="2025-04-03T15:40:58 CEST" duration-ms="5109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTicketCreation -->
+        <test-method signature="verifyIssueReadability()[pri:7, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:40:58 CEST" name="verifyIssueReadability" description="Verifying that issue is readable." finished-at="2025-04-03T15:41:02 CEST" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIssueReadability -->
+        <test-method signature="verifyIsssueStatusIsEdatable()[pri:8, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:41:02 CEST" name="verifyIsssueStatusIsEdatable" description="Verifying that the issue status is editable." finished-at="2025-04-03T15:41:03 CEST" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsssueStatusIsEdatable -->
+        <test-method signature="verifyIsssueAssigneeIsEdatable()[pri:9, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:41:03 CEST" name="verifyIsssueAssigneeIsEdatable" description="Verifying that the issue can be assigned." finished-at="2025-04-03T15:41:05 CEST" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsssueAssigneeIsEdatable -->
+        <test-method signature="verifyIssueIsDeleted()[pri:10, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:41:05 CEST" name="verifyIssueIsDeleted" description="Verifying issue deletion." finished-at="2025-04-03T15:41:07 CEST" duration-ms="2629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIssueIsDeleted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa_task.tests.SmokeTest@13c10b87]" started-at="2025-04-03T15:41:07 CEST" name="tearDown" finished-at="2025-04-03T15:41:08 CEST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa_task.tests.SmokeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
